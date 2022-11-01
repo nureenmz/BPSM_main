@@ -1,0 +1,79 @@
+BLAST: identify putatively (commonly accepted) homologous sequences in a database
+
+Protein alignments: has simple identity, som distance n genetic code, chemical properties related, structural alignments
+
+PAM: Global(end to end) alignment of highly similar proteins
+- high number for distant proteins
+- low number for closely related proteins
+
+BLOSUM MARICES: Local alignments of evolutionarily divergent proteins
+- basing on observed alighnments, not extrapolated like PAM
+- max 62% similarity; a default for blast-P
+
+Bitscore of a match:
+- depends on: matrix used, query length, word size, database size
+- bigger HSP = better
+- smaller E-values = better
+
+Database	Query	Tool
+DNA		DNA	blastn/megablast/tblastx/magic_blast
+DNA		Protein	tblastn
+Protein		DNA	blastx
+Protein		Protein	blastp/quickblastp/psi-blast
+
+HOW TO USE BLAST:
+1. search on BLAST database/ makeblastdb
+2. Use existing query and run blast
+3. Inspect and process results
+4. Interpret the results
+
+#------------------------------------------
+# Make blast db (protein)
+makeblastdb -in <fastafile> -dbtype prot -out <outfile>
+
+# Get query sequence (DNA)
+wget -O testsequence.fasta "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_015119.1&strand=1&seq_start=1426&seq_stop=2962&rettype=fasta&retmode=text"
+
+# Run the actual blast, save to a file in tabular format
+blastx -db <outfile> -query testsequence.fasta -outfmt 7 > blastoutput.out
+	# each 'data section' (no #) line is a HSP
+:
+#------------------------------------------
+To practice plotcon/clustalo on command line
+/localdisk/data/BPSM/Lecture07
+
+#------------------------------------------
+# To align sequences
+clustalo -i <inputseq.fa> -v -t protein --guidetree-out=<file> --percent-id --threads=<n> -o <outputseq.fa>
+
+clustalo -i birds_glucose-6-phosphatase.prot.fa -v -t protein --guidetree-out=guidetree.out --percent-id --threads=10 -o birds_glucose-6-phosphatase.clust.fa
+# code works to get alignment
+
+# To plot conservation of sequence alignment
+plottitle= input(What would you like to name your plot?\n\t)
+	# error trap input something sensible, no spaces
+winsize= input(What window size would you like? (Default[4], larger= smoother plot)\n\t)
+	# error trap about integer only
+print(Program name, name of file, window size, outputfile name, default matrix used, emboss version)
+plotcon birds_glucose-6-phosphatase.clust.fa -winsize 5 -warning True -error True -goutfile $plottitle -graph cps
+print("Plotcon graph is saved to $plottitle.cps in the current folder")
+
+
+# To search for sequences
+# install edirect
+sh -c "$(wget -q ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh -O -)"
+
+# run esearch and efetch
+esearch -db pubmed -query <string> -spell |
+OR
+esearch -db protein -query "proteinname* [PROT]"| elink -target pubmed -label prot_cit| efetch -db protein -format fasta > outputfile.prot.fa
+
+#------------------------------------------
+https://www.ncbi.nlm.nih.gov/Taxonomy/taxonomyhome.html/index.cgi?chapter=howlink
+https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7215&p=structure&p=protein&lvl=2
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3848038/
+https://www.youtube.com/watch?v=ZN3RrXAe0uM
+https://www.youtube.com/watch?v=dzRq-5BrGD4
+https://www.youtube.com/watch?v=KLBE0AuH-Sk
+https://www.youtube.com/watch?v=mvjHYMgJDTQ
+https://stats.idre.ucla.edu/other/mult-pkg/whatstat/what-is-the-difference-between-categorical-ordinal-and-interval-variables/

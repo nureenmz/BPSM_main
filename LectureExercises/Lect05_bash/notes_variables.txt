@@ -1,0 +1,493 @@
+oinfmsc5: ~/LectureExercises/Lect_05$] bash
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable:="BPSM"}
+BPSM
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+BPSM
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $myfirstvariable "is cool"
+BPSM is cool
+[bioinfmsc5: ~/LectureExercises/Lect_05$] myfirstvariable
+bash: myfirstvariable: command not found
+[bioinfmsc5: ~/LectureExercises/Lect_05$] $myfirstvariable
+bash: BPSM: command not found
+[bioinfmsc5: ~/LectureExercises/Lect_05$] mysecondvariable=$(echo $myfirstvariable "is cool")
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $mysecondvariable
+BPSM is cool
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo {$mysecondvariable}
+{BPSM is cool}
+[bioinfmsc5: ~/LectureExercises/Lect_05$] myfirstvariable="Murchison House"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+Murchison House
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+Murchison House
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable:="BPSM"}
+Murchison House
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset myfirst variable
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+Murchison House
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset myfirstvariable
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${myfirstvariable}
+
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${where_am_i:=Edenburghe}
+Edenburghe
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $where_am_i
+Edenburghe
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${where_am_i/e/i}
+Edinburghe
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${where_am_i//e/i}
+Edinburghi
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $where_am_i
+Edenburghe
+[bioinfmsc5: ~/LectureExercises/Lect_05$] where_am_i=$(echo ${where_am_i//e/i})
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $where_am_i
+Edinburghi
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${where_am_i:5}
+urghi
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo ${where_am_i:5:4}
+urgh
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset where_am_i
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $where_am_i
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$]
+
+######
+${string/pattern/replace}
+${string//allthispattern/replace}
+
+${string:position:length}
+
+newvar=$(echo ${oldvar+modification})
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo "This is a bit of text"
+This is a bit of text
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo "3/n4/n5" > myinputfile.tsv
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cat myinputfile.tsv
+3/n4/n5
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "3\n4\n5" >> myinputfile.tsv
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cat myinputfile.tsv
+3/n4/n5
+3
+4
+5
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo "The date is $(date)"
+The date is Sun 17 Oct 10:01:53 BST 2021
+[bioinfmsc5: ~/LectureExercises/Lect_05$] $date
+[bioinfmsc5: ~/LectureExercises/Lect_05$] $(date)
+bash: Sun: command not found
+[bioinfmsc5: ~/LectureExercises/Lect_05$] date
+Sun 17 Oct 10:02:11 BST 2021
+[bioinfmsc5: ~/LectureExercises/Lect_05$] now=$(date +"%d_%m_%Y")
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo "Today is $now"
+Today is 17_10_2021
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "Today is
+> \t$now"
+Today is
+        17_10_2021
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] mycomputer=$HOSTNAME
+[bioinfmsc5: ~/LectureExercises/Lect_05$] myfiles=$(ls *awk*)
+[bioinfmsc5: ~/LectureExercises/Lect_05$] mycomputer
+bash: mycomputer: command not found
+[bioinfmsc5: ~/LectureExercises/Lect_05$] $mycomputer
+bash: bioinfmsc5.bio.ed.ac.uk: command not found
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $mycomputer
+bioinfmsc5.bio.ed.ac.uk
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $myfiles
+myawkscript.awk
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "### These are my files:\n$myfiles"
+### These are my files:
+myawkscript.awk
+[bioinfmsc5: ~/LectureExercises/Lect_05$] ls -l *awk* > myfiles.list
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cat myfiles.list
+-rwxr-xr-x 1 s2255686 users 323 Oct 17 09:05 myawkscript.awk
+{bioinfmsc5: ~/LectureExercises/Lect_05$] cat myfiles.list | awk -v Linuxbox=$mycomputer -v now=$now '
+> print "As of " now ", " Linuxbox " has " $1 " stored on it."
+> }'
+As of 17_10_2021, bioinfmsc5.bio.ed.ac.uk has -rwxr-xr-x stored on it.
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo $now
+17_10_2021
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "$d1"
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] read d1 d2 d3 <<< "$now"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo e1 "$d1"
+e1 17_10_2021
+[bioinfmsc5: ~/LectureExercises/Lect_05$] IFS="_"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] read d1 d2 d3 <<< "$now"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "$d1"
+17
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset d3
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "$d2"
+10
+[bioinfmsc5: ~/LectureExercises/Lect_05$] read -r d1 d2 <<< "$now"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] echo -e "$d2"
+10_2021
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset IFS
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] read -r -a MY_ARR <<< "Linux is awesome."
+[bioinfmsc5: ~/LectureExercises/Lect_05$] for i in "${MY_ARR[@]}"; do
+> echo "$i"
+> done
+Linux
+is
+awesome.
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] {
+> echo -n "Type something and press enter: ";
+> read;
+> echo You typed ${REPLY}
+> }
+Type something and press enter: FHDJFH
+You typed FHDJFH
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] {
+> read -p 'Type something and hit space: ' '-d ';
+> echo "";
+> echo "You typed ${REPLY}"
+> }
+Type something and hit space: this
+You typed this
+
+######
+
+	# basic while read loop
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] seq 5 | while read i
+> do
+> echo ${i}
+> done
+1
+2
+3
+4
+5
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] seq 5 > rhs
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read i
+> do
+> echo ${i}
+> done < rhs
+1
+2
+3
+4
+5
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] (
+> IFS=" "
+> echo {1..5} | while read i
+> do
+> echo "${i}"
+> done
+> )
+1 2 3 4 5
+
+
+######
+	# Reading from any fd instead of standard input
+[bioinfmsc5: ~/LectureExercises/Lect_05$] _ ()
+> {
+> cat /dev/null > myfifo;
+> exec 3< myfifo;
+> echo "Hello, World! - from fd 3" > myfifo;
+> read -u 3;
+> exec 3>&-;
+> echo ${REPLY}
+> }
+[bioinfmsc5: ~/LectureExercises/Lect_05$] _
+Hello, World! - from fd 3
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] ls -a *awk* > myfiles.list
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cat myfiles.list
+arandomfile.awk
+awkfileisawk.txt
+awkoutputfile.txt
+myawkscript.awk
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read myfilename
+> do
+> echo -e "Processing $myfilename..."
+> linesinfile=$(wc -l $myfilename | cut -d ' ' -f1)
+> echo -e "\thas $linesinfile lines in it"
+> done < myfiles.list
+Processing arandomfile.awk...
+        has 0 lines in it
+Processing awkfileisawk.txt...
+        has 0 lines in it
+Processing awkoutputfile.txt...
+        has 0 lines in it
+Processing myawkscript.awk...
+        has 19 lines in it
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read myfilename
+> do
+> echo -e "Processing $myfilename..."
+> wcline=$(wc -l $myfilename)
+> now=$(date)
+> echo -e "$now \t $wcline" >> howmanylines.txt
+> linesinfile=$(wc -l $myfilename | cut -d ' ' -f1)
+> echo -e "\thas $linesinfile lines in it"
+> done < myfiles.list
+Processing arandomfile.awk...
+        has 0 lines in it
+Processing awkfileisawk.txt...
+        has 0 lines in it
+Processing awkoutputfile.txt...
+        has 0 lines in it
+Processing myawkscript.awk...
+        has 19 lines in it
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cat howmanylines.txt
+Sun 17 Oct 11:36:16 BST 2021     0 arandomfile.awk
+Sun 17 Oct 11:36:16 BST 2021     0 awkfileisawk.txt
+Sun 17 Oct 11:36:16 BST 2021     0 awkoutputfile.txt
+Sun 17 Oct 11:36:16 BST 2021     19 myawkscript.awk
+
+######
+	# print NF = number of fields
+[bioinfmsc5: ~/LectureExercises/Lect_05$] awk '{print NF}' howmanylines.txt
+8
+8
+8
+8
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read day numb month time timezone year linesfound filename
+> do
+> echo -e "$day\t$timezone\t$linesfound"
+> done < howmanylines.txt
+Sun     BST     0
+Sun     BST     0
+Sun     BST     0
+Sun     BST     19
+
+######
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] for animal in cat dog llama
+> do
+> echo $animal
+> done
+cat
+dog
+llama
+[bioinfmsc5: ~/LectureExercises/Lect_05$] for number in {1..3}
+> do
+> echo -e "$number\t$animal"
+> done
+1       llama
+2       llama
+3       llama
+[bioinfmsc5: ~/LectureExercises/Lect_05$] # it's always a llama bcs we didn't loop through "animal"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] for number in {1..3}
+> do
+> for animal in cat dog llama
+> do
+> echo -e "$number\t$animal"
+> done
+> done
+1       cat
+1       dog
+1       llama
+2       cat
+2       dog
+2       llama
+3       cat
+3       dog
+3       llama
+
+	# adding a counter in the nested loop..
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset count
+[bioinfmsc5: ~/LectureExercises/Lect_05$] for number in {1..3}
+> do
+> for animal in cat dog llama
+> do
+> count=$((count+1))
+> echo -e "$count\t$number\t$animal"
+> done
+> done
+1       1       cat
+2       1       dog
+3       1       llama
+4       2       cat
+5       2       dog
+6       2       llama
+7       3       cat
+8       3       dog
+9       3       llama
+
+######
+	# procesing blast output data
+[bioinfmsc5: ~/LectureExercises/Lect_05$] head -n10 blastoutput2.out
+# BLASTX 2.11.0+
+# Query: NC_015119.1:1426-2962 Boreus elegans mitochondrion, complete genome
+# Database: nem
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 405 hits found
+NC_015119.1:1426-2962   gi|225622197|ref|YP_002725710.1|        61.712  444     169     1       4       1335    12      454     7.36e-147      432
+NC_015119.1:1426-2962   gi|288903410|ref|YP_003434131.1|        61.991  442     167     1       10      1335    14      454     3.08e-146      430
+NC_015119.1:1426-2962   gi|326536058|ref|YP_004300493.1|        62.443  442     165     1       10      1335    14      454     3.29e-146      430
+NC_015119.1:1426-2962   gi|188011119|ref|YP_001905892.1|        61.312  442     170     1       10      1335    14      454     8.19e-146      429
+NC_015119.1:1426-2962   gi|225622184|ref|YP_002725698.1|        61.486  444     170     1       4       1335    12      454     1.06e-145      429
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cut -f1,12 blastoutput2.out | grep -v "#" | while read bn1 bn2
+> do
+> if test $bn2 -ge 30
+> then
+> echo "bitscore $bn2 is truly excellent"
+> echo -e "$bn1\t$bn2" >> good.bn
+> else
+> echo "bitscore $bn2 is not excellent"
+> echo -e "$bn1\t$bn2" >> bad.bn
+> fi
+> done
+[bioinfmsc5: ~/LectureExercises/Lect_05$] head good.bn
+NC_015119.1:1426-2962   432
+NC_015119.1:1426-2962   430
+NC_015119.1:1426-2962   430
+NC_015119.1:1426-2962   429
+NC_015119.1:1426-2962   429
+NC_015119.1:1426-2962   429
+NC_015119.1:1426-2962   429
+NC_015119.1:1426-2962   428
+NC_015119.1:1426-2962   428
+NC_015119.1:1426-2962   428
+[bioinfmsc5: ~/LectureExercises/Lect_05$] head bad.bn
+NC_015119.1:1426-2962   90.5
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   85.1
+NC_015119.1:1426-2962   74.7
+		# how to incorporate non-integer values into the evaluation??
+
+######
+	# index count, name, city, country, minus header and blank lines
+[bioinfmsc5: ~/LectureExercises/Lect_05$] count=0
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read name email city birthday_day birthday_month birthday_year country
+> do
+> if test -z $name
+> then
+> echo -e "X\tBlank line found"
+> else
+> if test $country == "country"
+> then
+> echo -e "X\tHeader line found"
+> else
+> count=$((count+1))
+> echo -e "$count\t$country"
+> fi
+> fi
+> done < example_people_data.tsv
+X       Header line found
+1       Tokelau
+2       Kenya
+3       Grenada
+4       Sudan
+5       United Arab Emirates
+6       Saint Helena, Ascension and Tristan da Cunha
+7       Peru
+
+	# group by country, then two age categories, separate output files
+[bioinfmsc5: ~/LectureExercises/Lect_05$] count=0
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read name email city birthday_day birthday_month birthday_year country
+> do
+> if test -z $name || test $country == "country"
+> then
+> continue
+> else
+> count=$((count+1))
+> outputfile=${country// /}.younger.details
+> if test $birthday_year -le 1980
+> then outputfile=${country// /}.older.details
+> fi
+> echo -e "$count\t$name\t$birthday_year\t$country" >> $outputfile
+> fi
+> done < example_people_data.tsv
+
+	# how many were born in October
+[bioinfmsc5: ~/LectureExercises/Lect_05$] count=0
+[bioinfmsc5: ~/LectureExercises/Lect_05$] month=10
+[bioinfmsc5: ~/LectureExercises/Lect_05$] outputfile="Month.$month.details"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read name email city birthday_day birthday_month birthday_year country
+> do
+> if test -z $name || test $country == "country"
+> then
+> echo "Ignoring"
+> else
+> count=$((count+1))
+> if test $birthday_month -eq $month
+> then
+> echo -e "$count\t$name\t$birthday_month\t$country" >> $outputfile
+> fi
+> fi
+> done < example_people_data.tsv
+Ignoring
+Ignoring
+Ignoring
+Ignoring
+Ignoring
+Ignoring
+[bioinfmsc5: ~/LectureExercises/Lect_05$] cat Month.10.details
+3       Celeste 10      Grenada
+19      Vivien  10      Sao Tome and Principe
+43      Bruce   10      Afghanistan
+49      Berk    10      Congo (Brazzaville)
+53      Leilani 10      Japan
+77      Isadora 10      Trinidad and Tobago
+80      Veronica        10      Western Sahara
+82      Fulton  10      Brunei
+83      Cally   10      Mozambique
+87      Dominique       10      Guinea
+95      Grace   10      Antigua and Barbuda
+
+###### using an array to store results while script processes the data
+
+[bioinfmsc5: ~/LectureExercises/Lect_05$] count=0; fnr=0; IFS=$'\t'
+[bioinfmsc5: ~/LectureExercises/Lect_05$] wantedcountry="Mozambique"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] inputfile="example_people_data.tsv"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] inputfilelength=$(wc -l $inputfile | cut -d ' ' -f1)
+[bioinfmsc5: ~/LectureExercises/Lect_05$] outputfile="Country.$wantedcountry.details"
+[bioinfmsc5: ~/LectureExercises/Lect_05$] unset my_array
+[bioinfmsc5: ~/LectureExercises/Lect_05$] declare -A my_array
+[bioinfmsc5: ~/LectureExercises/Lect_05$] while read name email city birthday_day birthday_month birthday_year country
+> do
+> fnr=$((fnr+1))
+> if test -z $name || test $country == "country"
+> then
+> echo "" > /dev/null
+> else
+> if test $country == $wantedcountry
+> then count=$((count+1))
+> my_array[$count]="$fnr\t$name\t$country"
+> fi
+> fi
+> if test $fnr -eq $inputfilelength
+> then
+> echo -e "\n### Here are the end of file results for $wantedcountry:" > $outputfile
+> for i in "${my_array[@]}"
+> do
+echo -e "$i" >> $outputfile
+done
+fi
+done < $inputfile
+

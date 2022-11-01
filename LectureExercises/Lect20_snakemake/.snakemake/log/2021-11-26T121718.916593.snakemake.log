@@ -1,0 +1,80 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+filter        2              1              1
+plot          3              1              1
+total         5              1              1
+
+Select jobs to execute...
+
+[Fri Nov 26 12:17:19 2021]
+rule filter:
+    input: ds1.csv
+    output: ds1_filtered.csv
+    jobid: 1
+    wildcards: csvdata=ds1
+    resources: tmpdir=/tmp
+
+egrep -v ^boring ds1.csv > ds1_filtered.csv
+
+[Fri Nov 26 12:17:19 2021]
+rule filter:
+    input: ds2.csv
+    output: ds2_filtered.csv
+    jobid: 3
+    wildcards: csvdata=ds2
+    resources: tmpdir=/tmp
+
+egrep -v ^boring ds2.csv > ds2_filtered.csv
+
+[Fri Nov 26 12:17:19 2021]
+rule plot:
+    input: ds1.csv
+    output: ds1_plot.pdf
+    jobid: 4
+    wildcards: dataset=ds1
+    resources: tmpdir=/tmp
+
+./myplotter.py -o ds1_plot.pdf ds1.csv
+[Fri Nov 26 12:17:19 2021]
+Finished job 1.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Fri Nov 26 12:17:19 2021]
+rule plot:
+    input: ds1_filtered.csv
+    output: ds1_filtered_plot.pdf
+    jobid: 0
+    wildcards: dataset=ds1_filtered
+    resources: tmpdir=/tmp
+
+./myplotter.py -o ds1_filtered_plot.pdf ds1_filtered.csv
+[Fri Nov 26 12:17:19 2021]
+Finished job 3.
+2 of 5 steps (40%) done
+Select jobs to execute...
+
+[Fri Nov 26 12:17:19 2021]
+rule plot:
+    input: ds2_filtered.csv
+    output: ds2_filtered_plot.pdf
+    jobid: 2
+    wildcards: dataset=ds2_filtered
+    resources: tmpdir=/tmp
+
+./myplotter.py -o ds2_filtered_plot.pdf ds2_filtered.csv
+[Fri Nov 26 12:17:20 2021]
+Finished job 2.
+3 of 5 steps (60%) done
+[Fri Nov 26 12:17:20 2021]
+Finished job 4.
+4 of 5 steps (80%) done
+[Fri Nov 26 12:17:20 2021]
+Finished job 0.
+5 of 5 steps (100%) done
+Complete log: /localdisk/home/s2255686/LectureExercises/Lect20_snakemake/.snakemake/log/2021-11-26T121718.916593.snakemake.log

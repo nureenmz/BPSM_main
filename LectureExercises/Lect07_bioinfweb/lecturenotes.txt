@@ -1,0 +1,68 @@
+NCBI > Taxonomy > Taxonomy > clickboxes to view by categories
+
+txid	taxon identifier
+
+[organism:exp]	
+
+txid6231[Organism:exp] AND COX1[Gene Name]
+
+txid6231[Organism:exp] AND COX1[Gene Name] NOT PARTIAL		returns full sequences only
+### how does one figure out that the sequence is partial or not, experimentally?
+
+
+txid6231[Organism:exp] AND (COX1[Gene Name] OR CO1[Gene Name])	to check for alt gene names
+
+standardized format for metadata on a sequence/protein
+
+annotations:
+left are "keys"
+right are "qualifiers"
+numbers = where the seq came from (database)
+
+GenPept format for origin
+group of 10 amino acids, separated by a space
+
+//  indicates the end of the GenPept origin format
+
+
+CDS - coding segment, which region the protein is coded from
+
+
+
+FASTA
+short form of the protein - header and sequence
+60 amino acids per line, no space
+
+
+Accession list - shorter?
+depends on how many to "see" per page
+
+
+Clustalo - tool to align protein sequences
+-- minus signs are fitted to make it look better
+Jalview - better viewing experience of the alignments
+run programs in threads - parallel runs
+
+###
+Emboss - european mol bio software suite
+USA - an accession number?
+-winsize 	making a smooth curve? defaults to 4 amino acid views at a time
+		window size 10 get smoother curve bcs u average over a bigger value
+
+
+###
+NCBIs eutils		ways of accessing the database
+esearch/eutils >> efetch/retrieval
+splitting the line "<|>" when see left/right hand arrow, split using that bar symbol
+-qO- quietly, send output to screen
+split(line, whattosplitinto, whattousetosplit)
+
+exporting variable in awk		need to send it as text into a file
+grep -m3 ">" 	find the first three header matches to ">"
+
+.nuc.gis format ???
+
+
+
+
+

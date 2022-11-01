@@ -1,0 +1,44 @@
+#Go through the file showing an index counter and the country
+count=0
+while read name email city birthday_day birthday_month birthday_year country 
+do
+count=$((count+1))
+echo -e "$count\t$country"
+done < example_people_data.tsv | head -10
+
+unset IFS
+IFS=$'\t'
+
+#Go through the file showing an index counter, name, city and the country, but
+#without the header and blanks lines this time
+count=0
+while read name email city birthday_day birthday_month birthday_year country
+do
+count=$((count+1))
+echo -e "$count\t$name\t$city\t$country"
+done < example_people_data.tsv | head -10 | tail -10
+
+#Lect05exercise.txt
+#Put people into separate files, a different file for each country
+count=0; IFS=$'\t';
+while read name email city birthday_day birthday_month birthday_year country
+do
+if test -z $name
+then
+count=count;
+else
+echo "outputfile1 will be $country.details";
+echo "outputfile2 will be ${country// /}.details"
+fi
+done < example_people_data.tsv
+
+rm  -f *.details
+while read name email city birthday_day birthday_month birthday_year country
+if test -z $name || test $country == "country"
+then
+echo "Ignoring"
+else
+count=$((count+1));
+echo -e "$count\t$name\t$city\t$country" >> ${country// /}.details
+fi
+done < example_people_data.tsv

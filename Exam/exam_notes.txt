@@ -1,0 +1,61 @@
+""" Mock Exam 30/11/2021 """
+
+# MCQ section
+
+Main memory stores data while program is running and the data the program is working with
+
+# this prints out each codon in mydnaseq on a separate line
+while len(mydnaseq) > 0:
+	print(mydnaseq[0] + mydnaseq[1] + mydnaseq[2]);
+	mydnaseq = mydnaseq[3:]
+
+# print the last character of each line in the file
+for line in open('justDNA.txt'):
+	print(line.rstrip(' ')[-1])
+
+# Short answer section
+
+what is a function
+- components
+- indentation
+- assertion
+- encapsulation
+- try except
+- return if error
+write a short function
+- rounding output
+
+# how is eddie different from server
+- ram/ disk space/ computing power(cores) more than the bioinfmsc server
+- options for parallelization using the grid engine
+- scratch space (one month or when full) vs home space (small)
+
+why use eddie / why not
+
+# code plan to use eddie
+- have to load module (module load python3)
+- q commands
+- -e export error messages to local
+- scp
+- analysis script, try on in qlogin
+- wait for job to run
+
+describe the input/output image
+how is this used?
+
+example five different python data types
+- string
+- set
+- dictionaries
+- dataframe
+- integer
+- list
+- tuples
+- floats
+- boolean
+- nonetype
+
+each as different biological data they store
+
+key features that make git and github useful
+code example of setting repo in server, push contents to github acc

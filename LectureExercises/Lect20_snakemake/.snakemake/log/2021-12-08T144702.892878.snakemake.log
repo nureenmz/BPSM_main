@@ -1,0 +1,67 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 5
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count    min threads    max threads
+------  -------  -------------  -------------
+filter        2              1              1
+plot          2              1              1
+total         4              1              1
+
+Select jobs to execute...
+
+[Wed Dec  8 14:47:03 2021]
+rule filter:
+    input: ds2.csv
+    output: ds2_filtered.csv
+    jobid: 3
+    wildcards: csvdata=ds2
+    resources: tmpdir=/tmp
+
+egrep -v ^boring ds2.csv > ds2_filtered.csv
+
+[Wed Dec  8 14:47:03 2021]
+rule filter:
+    input: ds1.csv
+    output: ds1_filtered.csv
+    jobid: 1
+    wildcards: csvdata=ds1
+    resources: tmpdir=/tmp
+
+egrep -v ^boring ds1.csv > ds1_filtered.csv
+[Wed Dec  8 14:47:03 2021]
+Finished job 3.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Wed Dec  8 14:47:03 2021]
+rule plot:
+    input: ds2_filtered.csv
+    output: ds2_filtered_plot.pdf
+    jobid: 2
+    wildcards: dataset=ds2_filtered
+    resources: tmpdir=/tmp
+
+./myplotter.py -o ds2_filtered_plot.pdf ds2_filtered.csv
+[Wed Dec  8 14:47:03 2021]
+Finished job 1.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Wed Dec  8 14:47:03 2021]
+rule plot:
+    input: ds1_filtered.csv
+    output: ds1_filtered_plot.pdf
+    jobid: 0
+    wildcards: dataset=ds1_filtered
+    resources: tmpdir=/tmp
+
+./myplotter.py -o ds1_filtered_plot.pdf ds1_filtered.csv
+[Wed Dec  8 14:47:04 2021]
+Finished job 2.
+3 of 4 steps (75%) done
+[Wed Dec  8 14:47:04 2021]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: /localdisk/home/s2255686/LectureExercises/Lect20_snakemake/.snakemake/log/2021-12-08T144702.892878.snakemake.log

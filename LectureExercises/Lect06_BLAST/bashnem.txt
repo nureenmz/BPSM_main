@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+rm -f*.exercise.out # to remove output from previous runs in case we use a new input file
+
+
+# unset dataline: just erases the variable dataline
+
+cut -f2 blastoutput2.out > "blastoutput2exercise.txt"
+
+
+# list the alignment length and percent ID for al HSPs
+
+cut -f2,3,4 blastoutput2.out >> "blastoutput2exercise.txt"
+
+
+
+# show the HSPs with more than 20 mismatches
+
+cut -f2,5 blastoutput2.out | awk '{
+FS="\t";
+if ($2 > 20){print $0;}
+}'
+
+
+# show the HSPs shorter than 100 amino acids and with more than 20 mismatches
+
+cut -f2,4,5 blastoutput2.out | awk '{
+FS="\t";
+if ($2 > 20) && ($3 < 100)
+then print $0
+}'
+ 

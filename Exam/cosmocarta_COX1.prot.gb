@@ -1,0 +1,1579 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LOCUS       QHR79669                 507 aa            linear   INV 04-FEB-2020
+DEFINITION  cytochrome c oxidase subunit 1 (mitochondrion) [Cosmoscarta
+            dorsimacula].
+ACCESSION   QHR79669
+VERSION     QHR79669.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta dorsimacula
+  ORGANISM  Cosmoscarta dorsimacula
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 507)
+  AUTHORS   Yan,C. and Zu,Z.
+  TITLE     The complete mitochondrial genome of Cosmoscarta dorsimacula
+  JOURNAL   Mitochondrial DNA B Resour 4 (1), 975-976 (2019)
+REFERENCE   2  (residues 1 to 507)
+  AUTHORS   Yan,C. and Zu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-DEC-2018) Institute of Agriculture and Biotechnology,
+            Wenzhou Vocational College of Science and Technology, Liuhongqiao
+            Road 1000, Wenzhou, Zhejiang 0536, China
+FEATURES             Location/Qualifiers
+     source          1..507
+                     /organism="Cosmoscarta dorsimacula"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:797793"
+     Protein         1..507
+                     /product="cytochrome c oxidase subunit 1"
+     Region          1..507
+                     /region_name="COX1"
+                     /note="cytochrome c oxidase subunit I; Provisional;
+                     MTH00153"
+                     /db_xref="CDD:177210"
+     CDS             1..507
+                     /gene="COX1"
+                     /coded_by="MK256929.1:1401..2922"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mfstnhkdig tlyfifgiws gmlgmtlsll irielaqpgs figddqiynv ivtshafimi
+       61 ffmvmpimig gfgnwlvplm igapdmafpr mnnmsfwmlp psltlllsss midngvgtgw
+      121 tvypplssni ahagacvdma ifslhlagis silgavnfit tifnmrslgm nwdqtplfvw
+      181 avlitaflll lslpvlagai tmlltdrnin tsffdpsggg dpilyqhlfw ffghpevyil
+      241 ilpgfglish iisqesgkne sfgslgmiya mmsigllgfv vwahhmftvg mdvdtrayft
+      301 satmiiavpt gikifswlat mhgiplnmsp smmwsigfvf lftiggltgv ilanssidiv
+      361 lhdtyyvvah fhyvlsmgav failgsiiqw fplftgltln lkwmkiqfnt mflgvnltff
+      421 pqhflglsgm prrysdypda yvswnmlssl gsmisfiail mlifimwesm mtkrkslftk
+      481 nlhssiewlq knppmehsyn elpmitk
+//
+LOCUS       YP_009544116             511 aa            linear   INV 21-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            dorsimacula].
+ACCESSION   YP_009544116
+VERSION     YP_009544116.1
+DBLINK      BioProject: PRJNA509813
+KEYWORDS    RefSeq.
+SOURCE      mitochondrion Cosmoscarta dorsimacula
+  ORGANISM  Cosmoscarta dorsimacula
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-DEC-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to AZJ53291.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta dorsimacula"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:797793"
+                     /country="China"
+                     /collection_date="28-Mar-2010"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+                     /calculated_mol_wt="56977"
+     CDS             1..511
+                     /gene="COX1"
+                     /locus_tag="EJ521_mgp12"
+                     /coded_by="NC_040115.1:1387..2920"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+                     /db_xref="GeneID:38570722"
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lslliriela qpgsfigddq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagac vdmaifslhl agissilgav nfittifnmr slgmsldqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiimqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl smspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfaimas iiqwfplftg mtlnskwmki qfntmflgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnm lssmgsiisf iailmlifii wesmmtkrks
+      481 lfaknlnssi ewlqknppme hsynelpmit k
+//
+LOCUS       YP_009544103             511 aa            linear   INV 21-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            bispecularis].
+ACCESSION   YP_009544103
+VERSION     YP_009544103.1
+DBLINK      BioProject: PRJNA509810
+KEYWORDS    RefSeq.
+SOURCE      mitochondrion Cosmoscarta bispecularis
+  ORGANISM  Cosmoscarta bispecularis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-DEC-2018) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to AZJ53278.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta bispecularis"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:798355"
+                     /country="China"
+                     /collection_date="20-Jun-2016"
+                     /collected_by="Bo He"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+                     /calculated_mol_wt="56970"
+     CDS             1..511
+                     /gene="COX1"
+                     /locus_tag="EJ518_mgp12"
+                     /coded_by="NC_040114.1:1391..2924"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+                     /db_xref="GeneID:38570684"
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lsllirielt qpgsfigndq iynvivtsha
+       61 fimiffmvmp imiggfgnwl iplmigapdm afprmnnmsf wmlppsltll lsssmvdngv
+      121 gtgwtvyppl ssniahagac vdmaifslhl agissilgav nfittifnmr tsgmnldqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl nmspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfailgs iiqwfplftg vtlnskwmki qfntmflgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnm lsslgsiisf iailmlifim wesmmtkrks
+      481 lftknlnssi ewlqknppme hsynelpmit k
+//
+LOCUS       AZL35869                 511 aa            linear   INV 15-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            exultans].
+ACCESSION   AZL35869
+VERSION     AZL35869.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta exultans
+  ORGANISM  Cosmoscarta exultans
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta exultans"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:868257"
+                     /country="China"
+                     /collection_date="02-May-2016"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MG488218.1:1389..2922"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lsllirielt qpgsfigddq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagtc vdmaifslhl agissilgav nfittifnmr slgmnldqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg mvyamlsigi lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl nlspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfailgs iiqwfplftg mtlnskwmki qfnvmflgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnl lsslgsiisf isilmlifim wesmmtkrks
+      481 lfaknlnssi ewlqktppme hsynelplit k
+//
+LOCUS       AZL35856                 511 aa            linear   INV 15-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            mandarina].
+ACCESSION   AZL35856
+VERSION     AZL35856.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta mandarina
+  ORGANISM  Cosmoscarta mandarina
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-NOV-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta mandarina"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:797794"
+                     /country="China"
+                     /collection_date="02-Jul-2014"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MG488217.1:1386..2919"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lsllirvela qpgsfigndq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagsc vdmaifslhl agissilgav nfittifnmr smgmnldrtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl nmspsmmwsi gfvflftigg ltgiilanss
+      361 idivlhdtyy vvahfhyvls mgavfailas iiqwfplftg vtlnskwmki qfntmfmgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnl lsslgsivsl iavlmlifim wesmmtkrks
+      481 lfsknlnssi ewlqknppme hsynelpmit k
+//
+LOCUS       AZL35830                 511 aa            linear   INV 15-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            bispecularis].
+ACCESSION   AZL35830
+VERSION     AZL35830.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta bispecularis
+  ORGANISM  Cosmoscarta bispecularis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-NOV-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta bispecularis"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:798355"
+                     /country="China"
+                     /collection_date="26-Jun-2016"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MG488220.1:1388..2921"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lslliriela qpgsfigddq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagac vdmaifslhl agissilgav nfittifnmr slgmnwdqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl nmspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfailgs iiqwfplftg ltlnlkwmki qfntmflgvn
+      421 ltffpqhflg lsgmprrysd ypdayvswnm lsslgsmisf iailmlifim wesmmtkrks
+      481 lftknlhssi ewlqknppme hsynelpmit k
+//
+LOCUS       AZL35817                 511 aa            linear   INV 15-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta heros].
+ACCESSION   AZL35817
+VERSION     AZL35817.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta heros
+  ORGANISM  Cosmoscarta heros
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-NOV-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta heros"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:797796"
+                     /country="China"
+                     /collection_date="15-Dec-2007"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MG488215.1:1391..2924"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtmyfil giwsgmlgmt lsllirielt qpgsfigndq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagac vdlaifslhl agissilgav nfittilnmr smgmnldqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg miyamlsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl klspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfailgs iiqwfplftg ltlnskwmki qfntmfmgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnm lsslgsmisf iailmlifim wesmmskrks
+      481 lfmknlnssi ewlqktppme hsynelpmit k
+//
+LOCUS       AZJ53291                 511 aa            linear   INV 10-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            dorsimacula].
+ACCESSION   AZJ53291
+VERSION     AZJ53291.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta dorsimacula
+  ORGANISM  Cosmoscarta dorsimacula
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta dorsimacula"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:797793"
+                     /country="China"
+                     /collection_date="28-Mar-2010"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MG599490.1:1387..2920"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lslliriela qpgsfigddq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagac vdmaifslhl agissilgav nfittifnmr slgmsldqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiimqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl smspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfaimas iiqwfplftg mtlnskwmki qfntmflgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnm lssmgsiisf iailmlifii wesmmtkrks
+      481 lfaknlnssi ewlqknppme hsynelpmit k
+//
+LOCUS       AZJ53278                 511 aa            linear   INV 10-DEC-2018
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            bispecularis].
+ACCESSION   AZJ53278
+VERSION     AZJ53278.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta bispecularis
+  ORGANISM  Cosmoscarta bispecularis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Comparative analysis of the mitochondrial genomes of Oriental
+            spittlebug trible Cosmoscartini: insights into the relationships
+            among closely related taxa
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   Su,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-DEC-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta bispecularis"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:798355"
+                     /country="China"
+                     /collection_date="20-Jun-2016"
+                     /collected_by="Bo He"
+                     /identified_by="Aiping Liang"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MG599489.1:1391..2924"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lsllirielt qpgsfigndq iynvivtsha
+       61 fimiffmvmp imiggfgnwl iplmigapdm afprmnnmsf wmlppsltll lsssmvdngv
+      121 gtgwtvyppl ssniahagac vdmaifslhl agissilgav nfittifnmr tsgmnldqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl nmspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfailgs iiqwfplftg vtlnskwmki qfntmflgvn
+      421 ltffpqhflg lsgmprrysd ypdaymswnm lsslgsiisf iailmlifim wesmmtkrks
+      481 lftknlnssi ewlqknppme hsynelpmit k
+//
+LOCUS       ATV81520                 511 aa            linear   INV 19-NOV-2017
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta sp.
+            TS-2017].
+ACCESSION   ATV81520
+VERSION     ATV81520.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. TS-2017
+  ORGANISM  Cosmoscarta sp. TS-2017
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 511)
+  AUTHORS   He,B., Su,T., Wu,Y. and Gu,Z.
+  TITLE     Characterization of the complete mitochondrial genome of the
+            Cosmoscarta dorsimacula (Hemiptera: Cercopidae)
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 511)
+  AUTHORS   He,B., Su,T., Wu,Y. and Gu,Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-AUG-2017) Key Laboratory of Zoological Systematics and
+            Evolution, Institute of Zoology, Chinese Academy of Sciences,
+            Beichen West Road, Beijing, Beijing 100101, China
+FEATURES             Location/Qualifiers
+     source          1..511
+                     /organism="Cosmoscarta sp. TS-2017"
+                     /organelle="mitochondrion"
+                     /host="Vitex negundo"
+                     /db_xref="taxon:2053067"
+                     /country="China"
+                     /collection_date="09-May-2015"
+                     /collected_by="Bo He"
+     Protein         1..511
+                     /product="cytochrome c oxidase subunit I"
+     Region          1..511
+                     /region_name="COX1"
+                     /note="cytochrome c oxidase subunit I; Provisional;
+                     MTH00153"
+                     /db_xref="CDD:177210"
+     Site            order(8,88,92,94,101,142,146,164,168,188,195,198,206,
+                     215..217,222..223,225,235,273,276,279..280,284)
+                     /site_type="other"
+                     /note="Subunit I/III interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(17,78,89,96,99,154..155,161,165)
+                     /site_type="other"
+                     /note="D-pathway"
+                     /db_xref="CDD:238833"
+     Site            order(23,27,30,34,114..115,398,471,474)
+                     /site_type="other"
+                     /note="Subunit I/VIIc interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(37,40..41,406,409..410,443,461)
+                     /site_type="other"
+                     /note="Subunit I/IV interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(53,225,263,266..267,292..294,297,300,308,316,319,
+                     326..328,340,358..359,361,363..367,431..432,436..438,
+                     447..448)
+                     /site_type="other"
+                     /note="Subunit I/II interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(59,376,380,422,459)
+                     /site_type="other"
+                     /note="Low-spin heme (heme a) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:238833"
+     Site            order(112,115)
+                     /site_type="other"
+                     /note="Subunit I/VIIa interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(133,211..214)
+                     /site_type="other"
+                     /note="Subunit I/VIa interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(188,195,235,273,276,279..280,284)
+                     /site_type="other"
+                     /note="Dimer interface"
+                     /db_xref="CDD:238833"
+     Site            order(225,230..231,362,366..367,436)
+                     /site_type="other"
+                     /note="Putative water exit pathway"
+                     /db_xref="CDD:238833"
+     Site            order(238,288..289,374)
+                     /site_type="other"
+                     /note="Binuclear center (heme a3/CuB) [ion binding]"
+                     /db_xref="CDD:238833"
+     Site            order(238,242,253,288..289,314,317)
+                     /site_type="other"
+                     /note="K-pathway"
+                     /db_xref="CDD:238833"
+     Site            order(264,268,493)
+                     /site_type="other"
+                     /note="Subunit I/Vb interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(289,366..367,436..437)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238833"
+     Site            294
+                     /site_type="other"
+                     /note="Subunit I/VIb interface"
+                     /db_xref="CDD:238833"
+     Site            327
+                     /site_type="other"
+                     /note="Subunit I/VIc interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(375,436..437)
+                     /site_type="other"
+                     /note="Electron transfer pathway"
+                     /db_xref="CDD:238833"
+     Site            order(407,464)
+                     /site_type="other"
+                     /note="Subunit I/VIIIb interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(443,447)
+                     /site_type="other"
+                     /note="Subunit I/VIIb interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     CDS             1..511
+                     /gene="COX1"
+                     /coded_by="MF621236.1:1389..2922"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mkkwmfstnh kdigtlyfif giwsgmlgmt lslliriela qpgsfigddq iynvivtsha
+       61 fimiffmvmp imiggfgnwl vplmigapdm afprmnnmsf wmlppsltll lsssmidngv
+      121 gtgwtvyppl ssniahagac vdmaifslhl agissilgav nfittifnmr slgmnwdqtp
+      181 lfvwavlita fllllslpvl agaitmlltd rnintsffdp sgggdpilyq hlfwffghpe
+      241 vyililpgfg lishiisqes gknesfgslg miyammsigl lgfvvwahhm ftvgmdvdtr
+      301 ayftsatmii avptgikifs wlatmhgipl nlspsmmwsi gfvflftigg ltgvilanss
+      361 idivlhdtyy vvahfhyvls mgavfailgs iiqwfplftg mtlnlkwmki qfntmflgvn
+      421 ltffpqhflg lsgmprrysd ypdayvswnm lsslgsmisf iailmlifim wesmttkrks
+      481 lftknlhssi ewlqknppme hsynelpmia k
+//
+LOCUS       ADN22897                 204 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            sp. C22 JL-2010].
+ACCESSION   ADN22897
+VERSION     ADN22897.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. C22 JL-2010
+  ORGANISM  Cosmoscarta sp. C22 JL-2010
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 204)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 204)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..204
+                     /organism="Cosmoscarta sp. C22 JL-2010"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-C22"
+                     /db_xref="taxon:797790"
+     Protein         <1..204
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..204
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..151
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(59..60,129..130)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..204
+                     /gene="cox1"
+                     /coded_by="GQ423144.1:<1..613"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 miiavptgik ifswlatmhg iplnmspsmm wsigfvflft iggltgiila nssidivlhd
+       61 tyyvvahfhy vlsmgavfai lasviqwfpl ftgitlnlkw tkiqfnmmfl gvnltffpqh
+      121 flglsgmprr ysdypdayms wnmlsslgsi isliailmli fimwesmmtk rkslfsknld
+      181 ssiewlqknp pmehsynelp mitk
+//
+LOCUS       ADN22896                 203 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            sp. C21 JL-2010].
+ACCESSION   ADN22896
+VERSION     ADN22896.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. C21 JL-2010
+  ORGANISM  Cosmoscarta sp. C21 JL-2010
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 203)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 203)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..203
+                     /organism="Cosmoscarta sp. C21 JL-2010"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-C21"
+                     /db_xref="taxon:797789"
+     Protein         <1..203
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..203
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..137
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(58..59,128..129)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..203
+                     /gene="cox1"
+                     /coded_by="GQ423143.1:<1..611"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=2
+                     /transl_table=5
+ORIGIN
+        1 iiavptgiki fswlatmhgi plnmspsmmw sigfvflfti ggltgiilan ssidivlhdt
+       61 yyvvahfhyv lsmgavfail asiiqwfplf tgvtlnskwm kiqfntmfmg vnltffpqhf
+      121 lglsgmprry sdypdaymsw nllssigsii sliavlmlif imwesmmtkr kslfsknlns
+      181 siewlqknpp mehsynelpm itk
+//
+LOCUS       ADN22895                 202 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            heros].
+ACCESSION   ADN22895
+VERSION     ADN22895.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta heros
+  ORGANISM  Cosmoscarta heros
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 202)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 202)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..202
+                     /organism="Cosmoscarta heros"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-6"
+                     /db_xref="taxon:797796"
+     Protein         <1..202
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..202
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..149
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(57..58,127..128)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..202
+                     /gene="cox1"
+                     /coded_by="GQ423142.1:<1..608"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=2
+                     /transl_table=5
+ORIGIN
+        1 iavptgikif swlatmhgip lnmspsmmws vgfvflftig gltgvilans sidivlhdty
+       61 yvvahfhyvl smgavfailg siiqwfplft gvtlnskwmk iqfntmflgv nltffpqhfl
+      121 glsgmprrys dypdaymswn llsslgsiis figilmlifi lwesmmtkrk slftknmnss
+      181 iewlqktppm ehsynelpmi tk
+//
+LOCUS       ADN22894                 210 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            egens].
+ACCESSION   ADN22894
+VERSION     ADN22894.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta egens
+  ORGANISM  Cosmoscarta egens
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 210)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 210)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..210
+                     /organism="Cosmoscarta egens"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-C23"
+                     /db_xref="taxon:797795"
+     Protein         <1..210
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..210
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..157
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(65..66,135..136)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..210
+                     /gene="cox1"
+                     /coded_by="GQ423141.1:<1..631"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 yftsatmiia vptgikifsw latmhgipln mspsmmwsig fvflftiggl tgvilanssi
+       61 divlhdtyyv vahfhyvlsm gavfailgsi iqwfplftgi tlnskwmktq fnmmflgvnl
+      121 tffpqhflgl sgmprrysdy pdaymswnll sslgsiisfi ailmlifimw esmvtkrksl
+      181 ftknmnssie wlqktppmeh synelpmitk
+//
+LOCUS       ADN22893                 203 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            sp. C37 JL-2010].
+ACCESSION   ADN22893
+VERSION     ADN22893.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. C37 JL-2010
+  ORGANISM  Cosmoscarta sp. C37 JL-2010
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 203)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 203)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..203
+                     /organism="Cosmoscarta sp. C37 JL-2010"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-C37"
+                     /db_xref="taxon:797791"
+     Protein         <1..203
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..150
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Region          <3..203
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Site            order(58..59,128..129)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..203
+                     /gene="cox1"
+                     /coded_by="GQ423140.1:<1..610"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 llavptgiki fswlatmhgi pfntspsmmw svgfvflfti ggltgiilan ssidivlhdt
+       61 yyvvahfhyv lsmgavfail gsiiqwfplf tgmtlnskwm kiqfnmmflg vnltffpqhf
+      121 lglsgmprry sdypdaymsw nllsslgsii slvailmlif imwesmltkr kslfsknlns
+      181 siewlqknpp mehsynelpm itk
+//
+LOCUS       ADN22892                 209 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            sp. 4-B JL-2010].
+ACCESSION   ADN22892
+VERSION     ADN22892.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. 4-B JL-2010
+  ORGANISM  Cosmoscarta sp. 4-B JL-2010
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 209)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 209)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..209
+                     /organism="Cosmoscarta sp. 4-B JL-2010"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-4-B"
+                     /db_xref="taxon:797788"
+     Protein         <1..209
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..209
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..156
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(64..65,134..135)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..209
+                     /gene="cox1"
+                     /coded_by="GQ423139.1:<1..629"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=2
+                     /transl_table=5
+ORIGIN
+        1 ftsatmiiav ptgikifswl atmhgipfnt spsmmwsvgf vflftigglt giilanssid
+       61 ivlhdtyyvv ahfhyvlsmg avfailgsii qwfplftgmt lnskwmkiqf nmmflgvnlt
+      121 ffpqhflgls gmprrysdyp daymswnlls slgsiislva ilmlifimwe smltkrkslf
+      181 sknlnssiew lqknppmehs ynelpmitk
+//
+LOCUS       ADN22891                 206 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            sp. 2-2 JL-2010].
+ACCESSION   ADN22891
+VERSION     ADN22891.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. 2-2 JL-2010
+  ORGANISM  Cosmoscarta sp. 2-2 JL-2010
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 206)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 206)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..206
+                     /organism="Cosmoscarta sp. 2-2 JL-2010"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-2-2"
+                     /db_xref="taxon:797787"
+     Protein         <1..206
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..206
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..153
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(61..62,131..132)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..206
+                     /gene="cox1"
+                     /coded_by="GQ423138.1:<1..619"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 atmiiavptg ikifswlatm hgiplnltps mmwsigfvfl ftiggltgvi lanssidivl
+       61 hdtyyvvahf hyvlsmgavf ailgsiiqwf plftgmtlns kwmkiqfntm flgvnltffp
+      121 qhflglsgmp rrysdypday mswntlsslg siisfisilm lifimwesmm tkrkslfakn
+      181 lnssiewlqk nppmehsyne lplitk
+//
+LOCUS       ADN22890                 200 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            mandarina].
+ACCESSION   ADN22890
+VERSION     ADN22890.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta mandarina
+  ORGANISM  Cosmoscarta mandarina
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 200)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 200)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Cosmoscarta mandarina"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-4-5"
+                     /db_xref="taxon:797794"
+     Protein         <1..200
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..200
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..134
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(55..56,125..126)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..200
+                     /gene="cox1"
+                     /coded_by="GQ423137.1:<1..602"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=2
+                     /transl_table=5
+ORIGIN
+        1 vptgikifsw latmhgipln mspsmmwsig fvflftiggl tgvilanssi diilhdtyyv
+       61 vahfhyvlsm gavfailgsi iqwfplftgl tlnskwmkiq fntmflgvnl tffpqhflgl
+      121 sgmprrysdy pdaymswnll sslgslisfi svlmlifimw esmmtkrksl faknlnssie
+      181 wlqknppmeh synelplitk
+//
+LOCUS       ADN22889                 210 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            dorsimacula].
+ACCESSION   ADN22889
+VERSION     ADN22889.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta dorsimacula
+  ORGANISM  Cosmoscarta dorsimacula
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 210)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 210)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..210
+                     /organism="Cosmoscarta dorsimacula"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-2-B"
+                     /db_xref="taxon:797793"
+     Protein         <1..210
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..210
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..157
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(65..66,135..136)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..210
+                     /gene="cox1"
+                     /coded_by="GQ423136.1:<1..633"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=3
+                     /transl_table=5
+ORIGIN
+        1 yftsatmiia vptgikifsw latmhgipln ispsmmwsig fvflftiggl tgvilanssi
+       61 divlhdtyyv vahfhyvlsm gavfailgsi iqwfplftgv tlnskwmkiq fntmflgvnl
+      121 tffpqhflgl sgmprrysdy pdaymswnll sslgsiisfi avlmlifimw esmvtkrksl
+      181 faknlnssie wlqknppkeh sfnelpmitk
+//
+LOCUS       ADN22888                 199 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            sp. M1 JL-2010].
+ACCESSION   ADN22888
+VERSION     ADN22888.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta sp. M1 JL-2010
+  ORGANISM  Cosmoscarta sp. M1 JL-2010
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta; unclassified
+            Cosmoscarta.
+REFERENCE   1  (residues 1 to 199)
+  AUTHORS   Liu,J.
+  TITLE     A preliminary phylogeny of the Cercopidae (Hemiptera: Cercopoidea)
+            based on nuclear and mitochondrial DNA sequences
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 199)
+  AUTHORS   Liu,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-JUL-2009) Institute of Zoology, Chinese Academy of
+            Sciences, Chaoyang District, Beijing 100101, China
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..199
+                     /organism="Cosmoscarta sp. M1 JL-2010"
+                     /organelle="mitochondrion"
+                     /specimen_voucher="CALC-M1"
+                     /db_xref="taxon:797792"
+     Protein         <1..199
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..199
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <1..146
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(54..55,124..125)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..199
+                     /gene="cox1"
+                     /coded_by="GQ423135.1:<1..599"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=2
+                     /transl_table=5
+ORIGIN
+        1 ptgikifswl atmhgiplnm spsmmwsigf vflftigglt gvilanssid ivlhdtyyvv
+       61 ahfhyvlsmg avfailgsii qwfplftgmt lnlkwmkiqf ntmflgvnlt ffpqhflgls
+      121 gmprrysdyp dayvswnmls slgsmisfia ilmlifimwe smmtkrkslf tknlhssiew
+      181 lqknppmehs ynelpmitk
+//
+LOCUS       ADJ95078                 295 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            heros].
+ACCESSION   ADJ95078
+VERSION     ADJ95078.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta heros
+  ORGANISM  Cosmoscarta heros
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 295)
+  AUTHORS   Cryan,J.R. and Svenson,G.J.
+  TITLE     Family-level relationships of the spittlebugs and froghoppers
+            (Hemiptera: Cicadomorpha:Cercopoidea)
+  JOURNAL   Syst. Entomol. 35 (3), 393-415 (2010)
+REFERENCE   2  (residues 1 to 295)
+  AUTHORS   Cryan,J.R. and Svenson,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JAN-2010) Research and Collections, New York State
+            Museum, 3140 Cultural Education Center, Albany, NY 12230, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..295
+                     /organism="Cosmoscarta heros"
+                     /organelle="mitochondrion"
+                     /isolate="CER179"
+                     /specimen_voucher="04-12-30-35"
+                     /db_xref="taxon:797796"
+     Protein         <1..>295
+                     /product="cytochrome oxidase subunit I"
+     Region          <10..>295
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <13..295
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(120,125..126,257,261..262)
+                     /site_type="other"
+                     /note="Putative water exit pathway"
+                     /db_xref="CDD:238461"
+     Site            order(133,183..184,269)
+                     /site_type="active"
+                     /note="Binuclear center (active site) [active]"
+                     /db_xref="CDD:238461"
+     Site            order(133,137,148,183..184,209,212)
+                     /site_type="other"
+                     /note="K-pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..295
+                     /gene="COI"
+                     /coded_by="GU447018.1:<1..>888"
+                     /codon_start=2
+                     /transl_table=5
+ORIGIN
+        1 sltlllsssm idngvgtgwt vypplssnia hagacvdmai fslhlagiss ilgavnfitt
+       61 ifnmrslgmn ldqtplfvwa vlitafllll slpvlagait mlltdrnint sffdpsgggd
+      121 pilyqhlfwf fghpevyili lpgfglishi isqesgknes fgslgmiyam lsigllgfvv
+      181 wahhmftvgm dvdtrayfts atmiiavptg ikifswlatm hgiplnmsps mmwsigfvfl
+      241 ftiggltgvi lanssidivl hdtyyvvahf hyvlsmgavf ailgsiiqwf plftg
+//
+LOCUS       ADJ95077                 293 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            bispecularis].
+ACCESSION   ADJ95077
+VERSION     ADJ95077.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta bispecularis
+  ORGANISM  Cosmoscarta bispecularis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 293)
+  AUTHORS   Cryan,J.R. and Svenson,G.J.
+  TITLE     Family-level relationships of the spittlebugs and froghoppers
+            (Hemiptera: Cicadomorpha:Cercopoidea)
+  JOURNAL   Syst. Entomol. 35 (3), 393-415 (2010)
+REFERENCE   2  (residues 1 to 293)
+  AUTHORS   Cryan,J.R. and Svenson,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JAN-2010) Research and Collections, New York State
+            Museum, 3140 Cultural Education Center, Albany, NY 12230, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..293
+                     /organism="Cosmoscarta bispecularis"
+                     /organelle="mitochondrion"
+                     /isolate="CER178"
+                     /specimen_voucher="04-12-30-34"
+                     /db_xref="taxon:798355"
+     Protein         <1..>293
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..>293
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <2..293
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(119,124..125,256,260..261)
+                     /site_type="other"
+                     /note="Putative water exit pathway"
+                     /db_xref="CDD:238461"
+     Site            order(132,182..183,268)
+                     /site_type="active"
+                     /note="Binuclear center (active site) [active]"
+                     /db_xref="CDD:238461"
+     Site            order(132,136,147,182..183,208,211)
+                     /site_type="other"
+                     /note="K-pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..293
+                     /gene="COI"
+                     /coded_by="GU447017.1:<1..>880"
+                     /codon_start=3
+                     /transl_table=5
+ORIGIN
+        1 ltlllsssmi dngvgtgwtv ypplssniah agacvdmaif slhlagissi lgavnfitti
+       61 fnmrslgmnw dqtplfvwav litaflllls lpvlagaitm lltdrnints ffdpsgggdp
+      121 ilyqhlfwff ghpevyilil pgfglishii sqesgknesf gslgmiyamm sigllgfvvw
+      181 ahhmftvgmd vdtrayftsa tmiiavptgi kifswlatmh giplnmspsm mwsigfvflf
+      241 tiggltgvil anssidivlh dtyyvvahfh yvlsmgavfa ilgsiiqwfp lft
+//
+LOCUS       ADJ95069                 294 aa            linear   INV 25-JUL-2016
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Cosmoscarta
+            dimidiata].
+ACCESSION   ADJ95069
+VERSION     ADJ95069.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta dimidiata
+  ORGANISM  Cosmoscarta dimidiata
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 294)
+  AUTHORS   Cryan,J.R. and Svenson,G.J.
+  TITLE     Family-level relationships of the spittlebugs and froghoppers
+            (Hemiptera: Cicadomorpha:Cercopoidea)
+  JOURNAL   Syst. Entomol. 35 (3), 393-415 (2010)
+REFERENCE   2  (residues 1 to 294)
+  AUTHORS   Cryan,J.R. and Svenson,G.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-JAN-2010) Research and Collections, New York State
+            Museum, 3140 Cultural Education Center, Albany, NY 12230, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..294
+                     /organism="Cosmoscarta dimidiata"
+                     /organelle="mitochondrion"
+                     /isolate="CER164"
+                     /specimen_voucher="04-11-27-13"
+                     /db_xref="taxon:798356"
+     Protein         <1..>294
+                     /product="cytochrome oxidase subunit I"
+     Region          <1..>294
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:294196"
+     Region          <2..294
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(119,124..125,256,260..261)
+                     /site_type="other"
+                     /note="Putative water exit pathway"
+                     /db_xref="CDD:238461"
+     Site            order(132,182..183,268)
+                     /site_type="active"
+                     /note="Binuclear center (active site) [active]"
+                     /db_xref="CDD:238461"
+     Site            order(132,136,147,182..183,208,211)
+                     /site_type="other"
+                     /note="K-pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..294
+                     /gene="COI"
+                     /coded_by="GU447009.1:<1..>881"
+                     /transl_table=5
+ORIGIN
+        1 ltlllsssmi dngvgtgwtv ypplssniah mgacvdlaif slhlagissi lgavnfitti
+       61 fnmrsmgmsl dqtplfvwav litaflllls lpvlagaitm lltdrnints ffdpsgggdp
+      121 ilyqhlfwff ghpevyilil pgfglishii tqesgknesf gslgmiyamm sigllgfvvw
+      181 ahhmftvgmd vdtrayftsa tmiiaiptgi kifswlatmh giplnmspsm mwsigfvflf
+      241 tiggltgvil anssidivlh dtyyvvahfh yvlsmgavfa ilgsiiqwfp lftg
+//
+LOCUS       AJE26409                 507 aa            linear   INV 03-FEB-2015
+DEFINITION  cytochrome c oxidase subunit I (mitochondrion) [Cosmoscarta
+            bispecularis].
+ACCESSION   AJE26409
+VERSION     AJE26409.1
+KEYWORDS    .
+SOURCE      mitochondrion Cosmoscarta bispecularis
+  ORGANISM  Cosmoscarta bispecularis
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Paraneoptera; Hemiptera; Auchenorrhyncha;
+            Cercopoidea; Cercopidae; Cercopinae; Cosmoscarta.
+REFERENCE   1  (residues 1 to 507)
+  AUTHORS   Yang,H., Liu,J. and Liang,A.
+  TITLE     The complete mitochondrial genome of Cosmoscarata bispecularis
+            (Hemiptera, Cicadomorpha, Cercopoidea, Cercopidae)
+  JOURNAL   Mitochondrial DNA, 1-2 (2014) In press
+   PUBMED   25541318
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 507)
+  AUTHORS   Han,Y., Jie,L. and Aiping,L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2014) Chinese Academy of Sciences, Key Laboratory
+            of Zoological Systematics and Evolution, Institute of Zoology, 1
+            Beichen West Road, Chaoyang District, Beijing, Beijing 100101, China
+COMMENT     Method: conceptual translation supplied by author.
+FEATURES             Location/Qualifiers
+     source          1..507
+                     /organism="Cosmoscarta bispecularis"
+                     /organelle="mitochondrion"
+                     /db_xref="taxon:798355"
+     Protein         1..507
+                     /product="cytochrome c oxidase subunit I"
+     Region          1..507
+                     /region_name="COX1"
+                     /note="cytochrome c oxidase subunit I; Provisional;
+                     MTH00153"
+                     /db_xref="CDD:177210"
+     Site            order(4,84,88,90,97,138,142,160,164,184,191,194,202,
+                     211..213,218..219,221,231,269,272,275..276,280)
+                     /site_type="other"
+                     /note="Subunit I/III interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Region          8..454
+                     /region_name="COX1"
+                     /note="Cytochrome C and Quinol oxidase polypeptide I;
+                     pfam00115"
+                     /db_xref="CDD:278541"
+     Site            order(13,74,85,92,95,150..151,157,161)
+                     /site_type="other"
+                     /note="D-pathway"
+                     /db_xref="CDD:238833"
+     Site            order(19,23,26,30,110..111,394,467,470)
+                     /site_type="other"
+                     /note="Subunit I/VIIc interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(33,36..37,402,405..406,439,457)
+                     /site_type="other"
+                     /note="Subunit I/IV interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(49,221,259,262..263,288..290,293,296,304,312,315,
+                     322..324,336,354..355,357,359..363,427..428,432..434,
+                     443..444)
+                     /site_type="other"
+                     /note="Subunit I/II interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(55,372,376,418,455)
+                     /site_type="other"
+                     /note="Low-spin heme (heme a) binding site [chemical
+                     binding]"
+                     /db_xref="CDD:238833"
+     Site            order(108,111)
+                     /site_type="other"
+                     /note="Subunit I/VIIa interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(129,207..210)
+                     /site_type="other"
+                     /note="Subunit I/VIa interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(184,191,231,269,272,275..276,280)
+                     /site_type="other"
+                     /note="Dimer interface"
+                     /db_xref="CDD:238833"
+     Site            order(221,226..227,358,362..363,432)
+                     /site_type="other"
+                     /note="Putative water exit pathway"
+                     /db_xref="CDD:238833"
+     Site            order(234,284..285,370)
+                     /site_type="other"
+                     /note="Binuclear center (heme a3/CuB) [ion binding]"
+                     /db_xref="CDD:238833"
+     Site            order(234,238,249,284..285,310,313)
+                     /site_type="other"
+                     /note="K-pathway"
+                     /db_xref="CDD:238833"
+     Site            order(260,264,489)
+                     /site_type="other"
+                     /note="Subunit I/Vb interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(285,362..363,432..433)
+                     /site_type="other"
+                     /note="Putative proton exit pathway"
+                     /db_xref="CDD:238833"
+     Site            290
+                     /site_type="other"
+                     /note="Subunit I/VIb interface"
+                     /db_xref="CDD:238833"
+     Site            323
+                     /site_type="other"
+                     /note="Subunit I/VIc interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(371,432..433)
+                     /site_type="other"
+                     /note="Electron transfer pathway"
+                     /db_xref="CDD:238833"
+     Site            order(403,460)
+                     /site_type="other"
+                     /note="Subunit I/VIIIb interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     Site            order(439,443)
+                     /site_type="other"
+                     /note="Subunit I/VIIb interface [polypeptide binding]"
+                     /db_xref="CDD:238833"
+     CDS             1..507
+                     /gene="CO1"
+                     /coded_by="KP064511.1:1400..2921"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /transl_table=5
+ORIGIN
+        1 mfstnhkdig tlyfifgiws gmlgmtlsll irielaqpgs figddqiynv ivtshafimi
+       61 ffmvmpimig gfgnwlvplm igapdmafpr mnnmsfwmlp psltlllsss midngvgtgw
+      121 tvypplssni ahagacvdma ifslhlagis silgavnfit tifnmrslgm nwdqtplfvw
+      181 avlitaflll lslpvlagai tmlltdrnin tsffdpsggg dpilyqhlfw ffghpevyil
+      241 ilpgfglish iisqesgkne sfgslgmiya mmsigllgfv vwahhmftvg mdvdtrayft
+      301 satmiiavpt gikifswlat mhgiplnmsp smmwsigfvf lftiggltgv ilanssidiv
+      361 lhdtyyvvah fhyvlsmgav failgsiiqw fplftgmtln lkwmkiqfnt mflgvnltff
+      421 pqhflglsgm prrysdypda yvswnmlssl gsmisfiail mlifimwesm mtkrkslftk
+      481 nlhssiewlq knppmehsyn elpmitk
+//

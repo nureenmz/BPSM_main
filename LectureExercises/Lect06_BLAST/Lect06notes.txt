@@ -1,0 +1,48 @@
+# BLAST vs pairwise alignmen (Smith-Waterman)
+
+High scoring Segment Pair (HSP)		Try to extend the seed match until the longest match
+					HSPs can be merged to make longer matches
+
+A few bases are aligned and fitted to measure score. Then compared to another aligned set's score. 
+The set with higher score gets chosen for next fit ??
+
+
+# Protein
+
+Probability of picking an aminoacid 	VCPKKCS
+
+Probability of picking an amino acid is not equal! Esp in a sequence and in pairings.
+
+PAM matricees				high (distant-related), low (close-related)
+
+BLOSUM					Blocks Substitutiton Matrix
+					BLOSUM62 matrix built using seqs with 62% similarity at most
+
+Changing matrix changes the scoring system - important which matrix you choose!
+
+Bitscore				The value that is attached to the bit of alignment/seq that is scored
+					Param: matrix, query length, word size, database size
+						Better chance of getting a match with bigger database, shorter words
+
+HSP bitscore converted to E-value	Karlin-Altscul stats
+					
+
+Access database remotely		Always gets updated, take note when it's accesed/version
+
+
+
+## NCBI database
+
+GI number		old notation for genes
+Accession number NC	new notation for seq ref for a specific sequence
+
+
+ls -lh			list out files, in humanly way
+
+blastx output is sorted out by e-value on default, most sequence similar is put at the top
+
+
+
+			
+
+

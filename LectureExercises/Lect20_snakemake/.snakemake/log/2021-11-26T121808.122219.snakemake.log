@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job      count    min threads    max threads
+-----  -------  -------------  -------------
+plot         1              1              1
+total        1              1              1
+
+Select jobs to execute...
+
+[Fri Nov 26 12:18:08 2021]
+rule plot:
+    input: ds2_filtered.csv
+    output: ds2_filtered_plot.pdf
+    jobid: 2
+    wildcards: dataset=ds2_filtered
+    resources: tmpdir=/tmp
+
+./myplotter.py -o ds2_filtered_plot.pdf ds2_filtered.csv
+[Fri Nov 26 12:18:09 2021]
+Finished job 2.
+1 of 1 steps (100%) done
+Complete log: /localdisk/home/s2255686/LectureExercises/Lect20_snakemake/.snakemake/log/2021-11-26T121808.122219.snakemake.log
